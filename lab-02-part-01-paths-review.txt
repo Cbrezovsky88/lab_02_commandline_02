@@ -107,3 +107,5 @@ c.hostname
 ent-v314-003.local
 d. l
 e. ls -alt
+f.rmdir ./my-stuff/archived/current
+g.(Each command is lettered already so unsure if you want me to re write.
