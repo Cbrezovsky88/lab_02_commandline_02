@@ -19,8 +19,8 @@ $ echo hello
 Copy and paste the output below.
 ----------
 
-
-
+hello
+ent-v314-004:~ student$ 
 ==========
 2. Type:
 
@@ -28,6 +28,10 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
+
+nt-v314-004:~ student$ echo hello there
+hello there
+ent-v314-004:~ student$ 
 
 
 
@@ -38,8 +42,8 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
-
+ent-v314-004:~ student$ echo good mornin'
+> 
 
 ==========
 4. Uh-oh... we're stuck!
@@ -48,16 +52,17 @@ Type [CTRL + C] to get your prompt back.
 ----------
 
 
-
-==========
+> 
+ent-v314-004:~ student$ ==========
 5. Say good mornin' again with quotes!
 
 $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
-
+ent-v314-004:~ student$ echo "goog mornin'"
+goog mornin'
+ent-v314-004:~ student$ 
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.  For example, > brings up a different prompt.  Try *.
@@ -66,8 +71,9 @@ $ echo *
 
 What happens?
 ----------
-
-
+ent-v314-004:~ student$ echo *
+AMALogger20190109.log Adlm Adobe Applications Desktop Documents Downloads Elijah-MTEC1003 Library MPLABXProjects Movies Music New Unity Project Pictures Pizza Public QLData Things Users ipe.properties isus jack.jpeg jack.png memes memes.zip minecraft.png minecrft.jpeg mtec1002-lab-03 mtec1002-lab-03.tar.gz my-stuff pods.png pymel.log white.jpg xgen
+ent-v314-004:~ student$ 
 
 ==========
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
@@ -75,7 +81,7 @@ What happens?
 Write the command that you used below:
 ----------
 
-
+reset
 
 ==========
 We're going to practice downloading files from a web site.  We'll use this practice to download more lab materials!
@@ -87,6 +93,14 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
+ent-v314-004:~ student$ curl google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+ent-v314-004:~ student$ 
 
 
 
@@ -98,14 +112,14 @@ $ curl www.google.com
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
 
-
+(I couldnt see /title in that mess.
 
 ==========
 10. That's great, but what if I want to save the file?  What flag/option and option argument would I use to download the page to a file called google.html?  Run it to download the URL www.google.com.
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
-
+curl -o google.html http://www.google.com
 
 
 ==========
@@ -113,7 +127,7 @@ Write the command you used below.  Also copy and paste the output below.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
+pwd
 
 
 ==========
@@ -122,7 +136,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd.
 
 ==========
 13. So... the lab materials are located at this url:
