@@ -161,16 +161,22 @@ ent-v314-004:~ student$ curl -o mtec1002-lab-02.zip http://foureyes.github.io/mt
 
 Write down the command that you used to uncompress the file.
 ----------
-ls
 
-
+t-v314-004:~ student$ unzip mtec1002-lab-02.zip
+Archive:  mtec1002-lab-02.zip
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of mtec1002-lab-02.zip or
+        mtec1002-lab-02.zip.zip, and cannot find mtec1002-lab-02.zip.ZIP, period.
 ==========
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
 
 Copy and paste the output below.
 ----------
 
-
+Refer to 14 error.
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
